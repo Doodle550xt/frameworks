@@ -1,0 +1,93 @@
+ body {
+     font-family: 'Montserrat', sans-serif;
+     background-color: #fafafa;
+ }
+
+ li {
+     font-size: 12px;
+ }
+
+ a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+ }
+
+ a:hover {
+     color: rgb(0, 102, 204);
+ }
+
+ h1 {
+     font-size: 32px;
+     font-weight: 600;
+ }
+
+ .section-1 {
+     margin-top: 12px;
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+ }
+
+ .thead-dark {
+     background-color: #343a40;
+     color: white;
+ }
+
+ /* Navbar */
+ .nav-header {
+     position: sticky;
+     top: 0;
+     height: 52px;
+     z-index: 1000;
+ }
+
+ .nav-header-bg {
+     position: absolute;
+     inset: 0;
+     background: rgba(255, 255, 255, 0.7);
+     backdrop-filter: saturate(180%) blur(20px);
+ }
+
+ .nav-header-content {
+     position: absolute;
+     inset: 0;
+     padding: 0 22px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     max-width: 980px;
+ }
+
+ /* Navbar textos */
+ .nav-header h3 {
+     margin: 0;
+     font-size: 21px;
+     font-weight: 600;
+ }
+
+ /* Links de navbar */
+ .nav-header ul {
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     gap: 12px;
+     margin: 0 0 0 auto;
+     padding: 0;
+ }
+
+ .nav-header ul li a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+ }
+
+ .nav-header ul li a:hover {
+     color: rgb(0, 102, 204);
+ }
+
+ /* Titulares de sección */
+ .section-title {
+     font-size: 32px;
+     font-weight: 600;
+     margin-bottom: 12px;
+ }

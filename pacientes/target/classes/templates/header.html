@@ -1,0 +1,11 @@
+<!-- fragments/header.html -->
+<nav class="nav-header"  th:fragment="header">
+    <div class="nav-header-bg"></div>
+    <div class="nav-header-content">
+        <h3>Pacientes</h3>
+        <ul>
+            <li><a th:href="@{/crear}">Agregar Paciente</a></li>
+            <li><a th:href="@{/}">Pacientes</a></li>
+        </ul>
+    </div>
+</nav>
