@@ -1,0 +1,8 @@
+com/upiiz/ejercicio3/models/CarreraModel.class
+com/upiiz/ejercicio3/models/UsuarioModel.class
+com/upiiz/ejercicio3/services/CarreraServices.class
+com/upiiz/ejercicio3/Ejercicio3Application.class
+com/upiiz/ejercicio3/repositories/UsuarioRepository.class
+com/upiiz/ejercicio3/repositories/CarreraRepository.class
+com/upiiz/ejercicio3/controllers/UsuarioController.class
+com/upiiz/ejercicio3/services/UsuarioServices.class
