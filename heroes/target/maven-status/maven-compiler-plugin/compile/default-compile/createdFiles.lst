@@ -1,0 +1,5 @@
+com/upiiz/heroes/entities/Heroe.class
+com/upiiz/heroes/HeroesApplication.class
+com/upiiz/heroes/repositories/HeroeRepository.class
+com/upiiz/heroes/services/HeroeService.class
+com/upiiz/heroes/controllers/HeroeController.class
